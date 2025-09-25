@@ -1,0 +1,43 @@
+Financial Data Lake Platform
+Copyright 2024 [David Kabera]
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+This project uses the following open source components:
+
+Apache Spark
+Copyright 2014 and onwards The Apache Software Foundation
+
+Apache Kafka  
+Copyright 2012 The Apache Software Foundation
+
+Apache Airflow
+Copyright 2016-2024 The Apache Software Foundation  
+
+Apache Iceberg
+Copyright 2017-2024 The Apache Software Foundation
+
+Trino (formerly PrestoSQL)
+Copyright 2013-2024 The Trino Software Foundation
+
+MinIO
+Copyright 2015-2024 MinIO, Inc.
+
+MLflow
+Copyright 2018 Databricks, Inc.
+
+Apache Superset
+Copyright 2015-2024 The Apache Software Foundation
+
+Prometheus
+Copyright 2012-2015 The Prometheus Authors
+
+Grafana
+Copyright 2014-2024 Grafana Labs
+
+Docker
+Copyright 2013-2024 Docker, Inc.
+
+Additional third-party dependencies are listed in requirements.txt 
+with their respective licenses.
