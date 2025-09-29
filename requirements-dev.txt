@@ -1,0 +1,36 @@
+# Testing
+pytest == 7.4.3
+pytest-cov==4.1.0
+pytest-mock=3.12.0
+pytest-asyncio==0.21.1
+pytest-xdist==3.5.0
+faker==20.1.0
+factory-boy==3.3.0
+
+# Code Quality
+black==23.12.0
+flake8==6.1.0
+mypy==1.7.1
+pylint==3.0.3
+isort==5.13.2
+bandit==1.7.5
+
+# Development Tools
+ipython==8.18.1
+jupyter==1.0.0
+jupyterlab==4.0.9
+notebook==7.0.6
+ipdb==0.13.13
+
+# Documentation
+mkdocs==1.5.3
+mkdocs-material==9.5.2
+mkdocstings==0.24.0
+
+# Pre-commit
+pre-commit==3.6.0
+
+# Debugging & Profiling
+py-spy==0.3.14
+memory-profiler==0.61.0
+line-profiler==4.1.2
