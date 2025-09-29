@@ -67,7 +67,7 @@ Local development should mirror production
 - **Throughput**: Handles million of messages/second
 - **Ecosystem**: Kafka Connect, Streams, Schema Registry
 
-**Altenatives considered:**
+**Alternatives considered:**
 - **Pulsar**: Better features but less adoption
 - **RabbitMQ**: Not built for streaming use cases
 - **Kinesis**: AWS lock-in
@@ -82,7 +82,7 @@ Local development should mirror production
 
 **Alternatives considered:**
 - **Delta Lake**: Spark-centric, less engine support
-- **Hudi**: More complex, primarily for upserta
+- **Hudi**: More complex, primarily for upsert
 - **Raw Parquet**: No transactions or schema evolution
 
 ### Query Engine: Trino
@@ -168,7 +168,7 @@ Local development should mirror production
 
 **Why Medallion Architecture?**
 - **Bronze**: Debugging, reprocessing, compliance
-- **Sivler**: Single ource of truth for analytics
+- **Silver**: Single ource of truth for analytics
 - **Gold**: Performance optimization for queries
 
 ### Layer 3: Processing Patterns
@@ -209,7 +209,7 @@ All changes are captured as events in Kafka, enabling:
 - Event driven architecture
 
 ### 2. **CQRS (Command Query Responsibility Segregation)**
-- **Commmands**: Write to Kafka/Bronze
+- **Commands**: Write to Kafka/Bronze
 - **Queries**: Read from Gold/Serving layer
 - Optimized for different access patterns
 
@@ -297,7 +297,7 @@ CREATE TABLE customers (
 ## Security Architecture
 
 ### Data Security
-- **Encrytpion at rest**: MinIO encryption
+- **Encryption at rest**: MinIO encryption
 - **Encryption in transit**: TLS everywhere
 - **Access control**: IAM integration
 
